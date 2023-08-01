@@ -1,0 +1,49 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url('../assets/fonts/Montserrat-Bold.ttf') Format('truetype');
+}
+
+@font-face {
+    font-family: Gabelisa;
+    src: url('../assets/fonts/gabelisa.ttf') Format('truetype');
+}
+
+@font-face {
+    font-family: Fredricka;
+    src: url('../assets/fonts/FrederickatheGreat-Regular.ttf') Format('truetype');
+}
+
+@font-face {
+    font-family: MontserratExtraBold;
+    src: url('../assets/fonts/Montserrat-ExtraBold.ttf') Format('truetype');
+}
+
+@font-face {
+    font-family: MontRegular;
+    src: url('../assets/fonts/Montserrat-Regular.ttf') Format('truetype');
+}
+
+@font-face {
+    font-family: MontMedium;
+    src: url('../assets/fonts/Montserrat-Medium.ttf') Format('truetype');
+}
+
+.show-nav {
+    @apply visible;
+}
+
+.hide-nav {
+    @apply invisible;
+}
